@@ -9,7 +9,7 @@ export function middleware(request, event) {
 
     const URL =
       process.env.NODE_ENV === 'production'
-        ? 'https://you.explore/api/increment-views'
+        ? 'https://dandipeng.github.io/api/increment-views'
         : 'http://localhost:3000/api/increment-views'
 
     try {

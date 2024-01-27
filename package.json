@@ -1,9 +1,9 @@
 {
-  "name": "you.explore",
+  "name": "dandi",
   "description": "My personal website.",
   "author": {
-    "name": "zhiyou 之莜",
-    "url": "https://you.explore"
+    "name": "Dandi",
+    "url": "https://dandipeng.github.io"
   },
   "license": "MIT",
   "scripts": {

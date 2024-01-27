@@ -8,7 +8,7 @@ export default async function sitemap() {
   const sortedWritings = getSortedPosts(allPosts)
   const writings = sortedWritings.map((post) => {
     return {
-      url: `https://you.explore/writing/${post.slug}`,
+      url: `https://dandipeng.github.io/writing/${post.slug}`,
       lastModified: post.sys.publishedAt,
       changeFrequency: 'yearly',
       priority: 0.5
@@ -17,7 +17,7 @@ export default async function sitemap() {
 
   const bookmarks = collections.map((collection) => {
     return {
-      url: `https://you.explore/bookmarks/${collection.slug}`,
+      url: `https://dandipeng.github.io/bookmarks/${collection.slug}`,
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 1
@@ -37,7 +37,7 @@ export default async function sitemap() {
     if (['bookmarks'].includes(page.slug)) priority = 1
 
     return {
-      url: `https://you.explore/${page.slug}`,
+      url: `https://dandipeng.github.io/${page.slug}`,
       lastModified,
       changeFrequency,
       priority
@@ -46,7 +46,7 @@ export default async function sitemap() {
 
   return [
     {
-      url: 'https://you.explore',
+      url: 'https://dandipeng.github.io',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 1

@@ -5,10 +5,10 @@ import { getCollections, getRaindrops } from '@/lib/raindrop'
 export async function GET() {
   const collections = await getCollections()
   const date = new Date()
-  const siteURL = 'https://you.explore'
+  const siteURL = 'https://dandipeng.github.io'
   const author = {
-    name: 'Zhiyou 之莜',
-    link: 'https://you.explore'
+    name: 'Dandi',
+    link: 'https://dandipeng.github.io'
   }
 
   const feed = new Feed({

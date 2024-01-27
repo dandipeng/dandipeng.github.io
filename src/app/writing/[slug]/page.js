@@ -51,9 +51,9 @@ export default async function WritingSlug({ params }) {
     dateModified,
     author: {
       '@type': 'Person',
-      name: 'Zhiyou 之莜'
+      name: 'Dandi'
     },
-    url: `https://you.explore/writing/${slug}`
+    url: `https://dandipeng.github.io/writing/${slug}`
   }
 
   return (
