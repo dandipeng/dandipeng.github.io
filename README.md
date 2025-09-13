@@ -1,6 +1,6 @@
-# Scriptor
-> Scriptor is a simple, minimal, clean & responsive Jekyll theme for writers.
-
+# Dandi Peng
+> Data scientist with 6+ years of experience. 3+ years in automotive and retail industries and 3+ years in real estate. Demonstrated ability to build end‑to‑end ML pipelines and make high‑revenue impact projects with data‑driven decisions using advanced statistics skills.
+> 
 [Live Demo][demo] &nbsp; | &nbsp; [Download](https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme/archive/master.zip) &nbsp;
 
 [![Theme preview image](/images/scriptor-jekyll.png)][demo]
