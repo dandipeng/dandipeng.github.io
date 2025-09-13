@@ -1,15 +1,24 @@
 ---
 layout: default
-bodyClass: "page-basic"
 ---
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-start">
-        <div class="col-12 col-md-8">
-            <div class="service service-single">
-                <h1 class="title">{{page.title}}</h1>
-                <div class="content">{{content}}</div>
-            </div>
+
+<section>
+    <div class="section-title">
+        <h2><span>{{ page.title }}</span></h2>
+    </div>
+
+    <div class="article-post">
+    {{content}}
+    </div>
+
+    {% if page.comments == true %}
+
+    <div id="comments" class="row mb-5">
+        <div class="col-md-8">
+            {% include disqus.html %}
         </div>
     </div>
-</div>
+
+    {% endif %}
+</section>
