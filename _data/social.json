@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/dandipeng",
+    "image": "images/social/github.svg"
+  },
+  {
+      "name": "Email",
+      "link": "mailto:peng.dandi@gmail.com ",
+      "image": "images/social/email.svg"
+  },
+  {
+      "name": "Medium",
+      "link": "https://medium.com/@girasolejam",
+      "image": "images/social/medium.svg"
+  }
+]
