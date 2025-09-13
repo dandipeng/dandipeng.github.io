@@ -1,66 +1,60 @@
-# Forty - Jekyll Theme
+# Scriptor
+> Scriptor is a simple, minimal, clean & responsive Jekyll theme for writers.
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
+[Live Demo][demo] &nbsp; | &nbsp; [Download](https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme/archive/master.zip) &nbsp;
 
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
+[![Theme preview image](/images/scriptor-jekyll.png)][demo]
 
-# How to Use
+[demo]: https://scriptor-jekyll.netlify.app/
 
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
-and [creating pages](https://jekyllrb.com/docs/pages/).
+# Premium Jekyll Themes
 
-Simply fork this repository and start editing the `_config.yml` file!
+You can find our premium Jekyll themes here -> [jekyllthemes.io](https://jekyllthemes.io/developers/just-good-themes)
 
-> NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
+## Features
 
-# Added Features
+- Responsive design
+- Archive organized by [tags](https://scriptor-jekyll.netlify.com/tags/)
+- Disqus Comments
+- Accent color options
+- [Prism](https://prismjs.com/) syntax highlighter
 
-* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
-* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
-* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* Set **featured images** in front matter.
+## Local Installation
 
-# Credits
+How to set up and run this theme locally in a Jekyll site.
 
-Original README from HTML5 UP:
+_Note: This theme cannot be configured and installed as a theme, however you can still use this repo as a theme with your own content in it._
 
-```
-Forty by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Clone the repo or fork.
 
+Set up Jekyll -please follow the official documentation that can be found on the [Jekyll docs](https://jekyllrb.com/docs/).
 
-This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
-creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
-set up to smoothly transition to secondary landing pages (for which a separate page
-template is provided), and includes a number of neat effects (check out the menu!),
-extra features, and all the usual stuff you'd expect. Hope you dig it!
+Navigate to the repo and run `bundle install` to install the dependencies.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Then run `bundle exec jekyll serve` to start the Jekyll server.
 
-(* = not included)
+## Deployment
 
-AJ
-aj@lkn.io | @ajlkn
+### Local Instalation
 
+To set up Jekyll on local machine please follow the official documentation that can be found here -> https://jekyllrb.com/docs/.
 
-Credits:
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `bundle exec jekyll serve` to start the Jekyll server.
 
-	Demo Images:
-		Unsplash (unsplash.com)
+### Manual Deployment
 
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+Jekyll outputs your static site to the `_site` directory by default. You can transfer the contents of this directory to almost any hosting provider to get your site live.
 
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (github.com/louisremi)
-		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
-```
+### Netlify
 
-Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
+This theme is prepared to be hosted on [Netlify](https://www.netlify.com/). All you need to do is create a new private repository on GitHub or GitLab. Upload the theme to the repository and link your repo to Netlify. Please check [this link](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/#step-2-link-to-your-github) with the step-by-step guidelines.
+
+### Amazon S3
+
+If you want to host your site on Amazon S3, you can do so by using the [s3_website application](https://github.com/laurilehmijoki/s3_website). It will push your site to Amazon S3, where it can be served like any web server, dynamically scaling to almost unlimited traffic.
+
+Also, please check the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+
+## Licenses
+
+All files and directories are licensed under the [MIT](https://opensource.org/licenses/mit-license.php) unless explicitly stated.
