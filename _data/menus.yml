@@ -1,9 +1,9 @@
 main:
-  - name: "Profession"
-    url: "/profession/"
+  - name: "Services"
+    url: "/services/"
     weight: 2
-  - name: "Life"
-    url: "/life/"
+  - name: "Team"
+    url: "/team/"
     weight: 3
   - name: "About"
     url: "/about/"
